@@ -1,0 +1,29 @@
+{
+    "$schema": "https://raw.githubusercontent.com/platformio/platformio-core/develop/platformio/assets/schema/library.json",
+    "name": "PID",
+    "version": "0.0.1",
+    "description": "Controle PID genérico",
+    "keywords": ["control", "PID"],
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/Startche/PID"
+    },
+    "authors":
+    [
+      {
+        "name": "Lucas Klement Reinehr",
+        "email": "lucasklementr@gmail.com"
+      }
+    ],
+    "frameworks": "Arduino",
+    "platforms": "espressif32",
+    "headers": "PID.h",
+    "examples": [
+        {
+          "name": "PID_Test",
+          "base": "examples/PID_Test",
+          "files": ["PID_Test.cpp"]
+        }
+    ]
+}
